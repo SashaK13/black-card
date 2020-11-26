@@ -43,9 +43,8 @@ function toggleVisibility() {
 };
 
 /*
-* The purpose of this function is only to know the size of the window,
-* of the user visiting the website.
-* This information can be used later to make decisions, for instance about the CSS style.
+* The purpose of this function is only to know the size of the window, of the user visiting the website.
+* This information can be used later to make decisions, for instance about the HTML templates or CSS style.
 */
 function getWindowSize() {
   var windowSize = {
@@ -55,4 +54,5 @@ function getWindowSize() {
   console.log(windowSize);
 };
 
+/* Execute the function*/
 getWindowSize();
